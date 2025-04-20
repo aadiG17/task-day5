@@ -21,12 +21,7 @@ Extract meaningful insights, identify relationships and patterns, and uncover tr
 ---
 
 ## 📂 Project Structure
-titanic-eda/ │ ├── Titanic_EDA.ipynb 
-# Jupyter Notebook with all analysis ├── Titanic_EDA_Report.pdf 
-# PDF export of the notebook ├── titanic.csv 
-# Dataset file (if shared) └── README.md 
-# Project documentation (this file)
-
+titanic-eda/ ├── data/ │ └── titanic.csv # Titanic dataset file │ ├── notebooks/ │ └── Titanic_EDA.ipynb # Jupyter Notebook with full EDA │ ├── outputs/ │ ├── Titanic_EDA_Report.pdf # Exported PDF report │ └── figures/ # Saved plots/images (optional) │ ├── survival_by_gender.png │ └── heatmap_correlation.png │ ├── README.md # Project documentation ├── requirements.txt # Python dependencies ├── .gitignore # Git ignore file └── LICENSE # Open source license (MIT)
 ---
 
 ## 🔍 Exploratory Data Analysis Steps
